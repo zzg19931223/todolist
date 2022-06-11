@@ -18,8 +18,8 @@ export default Vue.extend({
     },
     data() {
         return {
-        list: [],
-        todocontent: ""
+            list: [],
+            todocontent: ""
         };
     },
     methods: {

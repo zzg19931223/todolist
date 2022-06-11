@@ -1,5 +1,5 @@
 <template>
-    <div :style="{ textDecoration: item.complete ? 'line-through' :'none' }">
+    <div :style="{ textDecoration: item.complete ? 'line-through' : 'none' }">
         <div class="list-item">
             <span>{{item.content}}</span>
             <el-button size="mini" type="success" icon="el-icon-check" @click="item.complete = true"></el-button>
