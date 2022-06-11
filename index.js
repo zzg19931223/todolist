@@ -7,6 +7,6 @@ import "./index.css"
 Vue.use(ElementUI);
 
 new Vue({
-  el: "#app",
-  render: (h) => h(App),
+    el: "#app",
+    render: (h) => h(App),
 });
