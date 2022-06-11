@@ -38,6 +38,7 @@ export default Vue.extend({
 <style>
 .todo-list {
     width: 400px;
+    max-width: 80vw;
     position: fixed;
     top: 50%;
     left: 50%;
